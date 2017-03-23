@@ -10,28 +10,28 @@ if (computerChoice < 0.34) {
 
 var compare = function(choice1, choice2) {
     if(choice1 === choice2) {
-        return "The result is a tie";
+        alert("The result is a tie")
     } 
     
     else if(choice1 === "rock") {        
         if(choice2 === "scissors") {
-            return "rock wins";
+            alert("rock wins")
         } else {
-           return "peper wins";
+           alert("peper wins")
             }}
             
             else if(choice1 === "paper"){
                 if(choice2 === "rock") {
-                    return "peper wins";
+                    alert("peper wins")
                     } else {
-                       return "scissors wins";
+                       alert("scissors wins")
                         }}
                         
                 else if(choce1 === "scissors") {
                     if(choice2 === "rock") {
-                        return "rock wins";
+                        alert("rock wins")
                         } else {
-                            return "peper wins";
+                            alert("peper wins")
                         }}                    
 };
 
