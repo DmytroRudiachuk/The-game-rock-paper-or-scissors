@@ -27,7 +27,7 @@ var compare = function(choice1, choice2) {
                        alert("scissors wins")
                         }}
                         
-                else if(choce1 === "scissors") {
+                else if(choice1 === "scissors") {
                     if(choice2 === "rock") {
                         alert("rock wins")
                         } else {
