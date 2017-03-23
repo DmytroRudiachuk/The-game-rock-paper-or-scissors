@@ -32,7 +32,10 @@ var compare = function(choice1, choice2) {
                         alert("rock wins")
                         } else {
                             alert("scissors wins")
-                        }}                    
-};
+
+                        }}
+                        else {
+							alert("Not a valid choice. Please choose rock,paper,scissors")                    
+}};
 
 console.log(compare(userChoice, computerChoice))
